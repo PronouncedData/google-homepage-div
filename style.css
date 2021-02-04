@@ -1,0 +1,175 @@
+a {
+    text-decoration: none; 
+    color: black; 
+}
+
+.header {
+    display:flex; 
+    width: 100vw; 
+    height: 10vh; 
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.header-left {
+    display: flex; 
+    flex-grow: 1; 
+    /*background: blue;*/ 
+    align-items: center;
+}
+
+.header-right {
+    display: flex; 
+    flex-grow: 1; 
+    /*background: red; */
+    align-items: center; 
+    justify-content: flex-end;
+}
+
+.left-text {
+    margin-left: 20px;
+    opacity: 0.75;
+}
+
+.right-text {
+    margin-right: 20px; 
+    opacity: 0.75;
+}
+
+#app-icon-format {
+    margin-right: 20px; 
+}
+
+.app-icon {
+    display: flex; 
+    flex-wrap: wrap; 
+    width: 23px; 
+    height: 23px; 
+}
+
+.app-circle {
+    flex: 1 0 33%; 
+    border: 1px solid white; 
+    box-sizing: border-box;
+    background: rgb(32, 32, 32); 
+    border-radius: 50%; 
+}
+
+.header-text:hover {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+.profile-pic {
+    border-radius: 50%; 
+    width: 50px; 
+}
+
+.profile-pic-container {
+    margin-right: 20px; 
+}
+
+.google-logo {
+    margin-top: 12vh;  
+}
+
+.search-bar {
+    display: flex;
+}
+
+.magnifying-glass {
+    position: relative; 
+    width: 30px; 
+    height: 30px; 
+    top: 28px;
+    left: 45px; 
+}
+
+.mic {
+    position: relative; 
+    width: 30px; 
+    height: 30px; 
+    top: 28px;
+    right: 45px; 
+}
+
+.bar {
+    display: block; 
+    border-radius: 25px;
+    margin-top: 20px; 
+    width: 35vw; 
+    height: 40px; 
+    border: solid; 
+    border-color: Gainsboro; 
+    border-width: thin;
+    padding-left: 5vh; 
+}
+
+.buttons {
+    display: flex; 
+    margin-top: 5vh;
+    width: 100vw; 
+    justify-content: center;
+}
+
+.google-button {
+    margin: 5px; 
+    border: none; 
+    height: 36px; 
+    width: 150px; 
+    color: #5F6368;
+    background-color: #f2f2f2; 
+    font-family: arial, sans-serif; 
+    font-size: 14px; 
+}
+
+.body {
+    display: flex; 
+    flex-flow: column; 
+    width: 100vw; 
+    height: 80vh;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    height: 10vh; 
+    background: #f2f2f2; 
+}
+
+.footer-left {
+    display: flex; 
+    
+}
+
+.footer-right {
+    display: flex; 
+}
+
+.page {
+    display: flex; 
+    flex-flow: column; 
+}
+
+
+.footer-left {
+    display: flex; 
+    flex-grow: 1;
+    align-items: center; 
+}
+
+.footer-right {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer p {
+    margin: 20px; 
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #000; 
+    opacity: 0.75;
+}
+
